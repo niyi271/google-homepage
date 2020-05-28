@@ -1,0 +1,2 @@
+This is my first Odin project. So far, I have only created a repo on Github and cloned it into Git. I also created my google-homepage folder.
+I created the google-homepage site. Positioned the elements, created horizontal navigation bar with drop-up button which its inline-block element menu does not pop up yet.

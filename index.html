@@ -1,38 +1,43 @@
 <head>
     <title>Google</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<header>
-    <div class="navigation-area">
-        <p>About</p>
-        <p>store</p>
-        <p>Gmail</p>
-        <p>images</p>
-        <button type="menu" ></button>
-        <button type="submit">Sign in</button>
-    </div>
-</header>
 <body>
+<header>
+    <ul class="nav-area1">
+        <li class="about nav-items1"><a  href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li class="store nav-items1"><a  href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">store</a></li>
+        <li class="gmail nav-items1"><a  href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></li>
+        <li class="img nav-items1"><a  href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">images</a></li>
+        <li class="sign-in nav-items1"><a  href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
+       </ul>
+</header>
 <div class="image">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92"alt="logo">
 </div>
-<div class="searchbox">
-    <input type="search">
-</div>
-<div class="search-bttn1">
-    <a href="#"><button type="submit" placeholder="Google Search"></button></a>
-</div>
-<div class="search-bttn2">
-    <a href="#"><button type="submit" placeholder="I'm Feeling Lucky"></button></a>
-</div>
-<nav class="nav-area">
-    <a class="adv" href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-    <a class="bus" href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
 
-    <a class="how-search-works" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
-    <a class="privacy" href="https://policies.google.com/privacy?fg=1">Privacy</a>
-    <a class="terms" href="https://policies.google.com/privacy?fg=1">Terms</a>
-    <div class="dropup">
-        <button class="dropbttn">Settings</button>
+    <form action="/action_page.php">
+     <div class="input-icon">
+         <!--place the search icon-->
+        <i class="fa fa-search icon"></i>
+      <input class="input-field" type="text" name="search">
+     </div> 
+    </form>
+  
+<div class="bttn-area">
+    <button class="search-bttn1" type="submit"><a href="#">Google Search</a></button>
+    <button class="search-bttn2" type="submit" ><a href="#">I'm Feeling Lucky</a></button>
+</div>
+<nav >
+    <ul class="nav-area">
+        <li class="adv nav-items"><a  href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li class="bus nav-items"><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
+        <li class="hsw nav-items"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+        <li class="privacy nav-items"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+        <li class="terms nav-items"><a href="https://policies.google.com/privacy?fg=1">Terms</a></li>
+        <li class="settings nav-items">
+        <a href="javasript:void(0)" class="dropup">Settings</a>
         <div class="drop-content">
             <a href="https://www.google.com/preferences?hl=en&fg=1">Search settings</a>
             <a href="#">Advanced search</a>
@@ -40,9 +45,8 @@
             <a href="#">History</a>
             <a href="https://support.google.com/websearch/?visit_id=637256271369242128-2732596559&hl=en&rd=2#topic=3378866">Search help</a>
             <a href="https://www.google.com/">Send feedback</a>
-
         </div>
-    </div>
-
+        </li>    
+    </ul>       
 </nav>
 </body>
